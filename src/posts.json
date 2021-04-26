@@ -1,0 +1,32 @@
+[
+    {
+        "Text":"No matter where you study and what you study, this is probably going to be the same everywhere!",
+        "Image":"post.png",
+        "Likescount":30,
+        "Commentscount":2,
+        "comments":[
+            {
+                "user":"Manideep Laxmishetty",
+                "Firstname":"Manideep",
+                "Lastname":"Laxmishetty",
+                "Comment":"Congratulations",
+                "Commentto":230
+            }
+        ]
+    },
+    {
+        "Text":"Hey introducing new idea",
+        "Image":"post.png",
+        "Likescount":310,
+        "Commentscount":12,
+        "comments":[
+            {
+                "user":"Manideep Laxmishetty",
+                "Firstname":"Manideep",
+                "Lastname":"Laxmishetty",
+                "Comment":"Congratulations",
+                "Commentto":230
+            }
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+#homeList:hover{
+    background-color:rgba(0,0,0,0.3);
+    color:black;
+   
+}
+#homeList:hover span{
+    opacity: 0.8;
+}
+a:hover{
+    text-decoration-line: none;
+    color:none;
+}
+textarea{
+    border:none;
+    outline:none;
+    resize: none;
+}
+textarea:focus{
+    border:none;
+    outline: none;
+    resize: none;
+}
+#homepost{
+    height: 50%;
+}

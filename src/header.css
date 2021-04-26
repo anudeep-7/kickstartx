@@ -1,0 +1,92 @@
+
+#addPostButton{
+    display: none;
+}
+.Search{
+    /* b    order:none; */
+    /* outline:none; */
+    background-color: transparent;
+    width: 200px;
+    font-family: Arial, FontAwesome;
+    /* -webkit-transition: width 0.4s ease-in-out; */
+    /* transition: width 0.4s ease-in-out; */
+}
+
+#plus{
+    display: none;
+    }
+/* .Search:focus{
+    width: 400px;
+} */
+#header{
+    /* position: fixed; */
+    /* top:0px; */
+    /* z-index: 5; */
+    /* height: 50px; */
+}
+@media screen and (max-width: 992px) {
+   #search{
+       
+      height: 40px;
+     
+   }
+/* .Search::placeholder{
+    color: white;
+} */
+   .Search{
+    /* border:none; */
+    /* outline:none; */
+    /* background-color: white; */
+    width: 20px;
+    /* height: 40px; */
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.Search:focus{
+    background-color: transparent;
+    /* height: 40px; */
+    width: 120px;
+}
+.Search:focus::placeholder{
+    color:#bbbbbb;
+}
+
+   #header{
+       justify-content: center;
+       align-items: center;
+       position: fixed;
+       margin-bottom: 0px;
+       overflow: hidden;
+       z-index: 500;
+     bottom:0px;
+     left:0px;
+     right:0px;
+     width:100%;
+       height:70px;
+       border:1px solid #cccccc;
+       box-shadow: 5px 10px 8px 8px  #888888;
+       /* background-color: white; */
+      
+   }
+   #brand{
+       position: fixed;
+       top:0px;
+       background-color: white;
+       width:100%;
+       height:50px;
+   
+       /* border-bottom:1px solid #cccccc;     */
+   }
+   #plus{
+       display: block;
+    position:fixed;
+}
+   
+   #more{
+       display: none;
+   }
+#addPostButton{
+    display:block;
+}
+ 
+}

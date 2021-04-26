@@ -1,0 +1,33 @@
+#boxx{
+    margin-top: 2%;
+}
+#post{
+    width:500px;
+}
+#profile:hover{
+    background-color: #cccccc;
+    border-radius: 50px;
+}
+@media screen and (max-width: 992px) {
+    .container{
+        width:100%;
+        flex-direction: column;
+      
+    }
+    #boxx{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+   
+    #post{
+       
+        width:100%;
+    }
+   
+    #imgPostt{
+        height: 100%;
+    }
+  }

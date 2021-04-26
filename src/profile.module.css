@@ -1,0 +1,6 @@
+#profile_pic{
+    border:20px solid black;
+}
+#profile_pic:hover{
+    border:4px solid black;
+}

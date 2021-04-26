@@ -1,0 +1,49 @@
+#friendrequestbox{
+    background-color: white;
+    cursor: pointer;
+    padding:10px 0px 10px;
+    width: 700px;
+    /* border-radius: 10px; */
+}
+#boxxx{
+    /* margin-top: 2%; */
+}
+#tickButton{
+    border-radius: 50%;
+    border:1px solid #dee2e6;
+}
+#tickButton:hover{
+    color:#007bff;
+    border:1px solid #007bff;
+}
+#wrongButton{
+    border-radius: 50%;
+    border:1px solid #dee2e6;
+}
+#wrongButton:hover{
+    color:red;
+    border:1px solid red;
+}
+@media screen and (max-width: 992px) {
+#boxxx{
+    margin-top: 50px;
+    
+}
+#friendrequestbox{
+    /* border-radius: 20px; */
+    
+    /* margin-top: 20px; */
+  padding: 10px 0px 10px 0px; 
+  width: 100%;
+  
+}
+#friendrequestdetails{
+    white-space: nowrap;
+  overflow: hidden;
+  max-width: 100px;
+}
+#tickButton{
+    color:#007bff;
+    border:1px solid #007bff;
+}
+}
